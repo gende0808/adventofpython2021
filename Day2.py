@@ -1,5 +1,5 @@
 input = [x for x in open('Day2.txt').read().strip().split('\n')]
-y, x, y2, aim = 0,0,0,0,0
+x = y = aim = y2 = 0
 for item in input:
     num = item.split(' ')[1]
     if "forward" in item:
